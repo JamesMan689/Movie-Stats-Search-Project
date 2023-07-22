@@ -1,0 +1,15 @@
+.header-container{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: row;
+}
+
+.header-title{
+  font-family: Oswald;
+  margin-right: 10px;
+}
+
+.header-container img{
+  width: 50px;
+}

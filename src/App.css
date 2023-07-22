@@ -1,0 +1,19 @@
+*{
+  background-color: #ad7c7d;
+  color: white;
+  
+}
+
+.app-container{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.signature{
+  position: fixed;
+  left: 0;
+  bottom: 0;
+
+}
