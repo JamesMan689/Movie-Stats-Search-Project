@@ -1,11 +1,11 @@
-import {useState, useEffect} from 'react'
+import {useState, useEffect, SetStateAction} from 'react'
 import "../components-css/Content.css"
 
 const Content = () => {
 
   const [title, setTitle] = useState("")
 
-  function handleChange(e){
+  function handleChange(e: { target: { value: SetStateAction<string> } }){
     setTitle(e.target.value)
   }
 
